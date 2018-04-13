@@ -7,8 +7,8 @@
 
 2、设置小红点：
 
-  1.[KKBadgeController setBadgeForKeyPath:DEMO_CHILD_PATH];
+   1.[KKBadgeController setBadgeForKeyPath:DEMO_CHILD_PATH];
   
-  2.[KKBadgeController setBadgeForKeyPath:DEMO_CHILD_PATH count:1];
+   2.[KKBadgeController setBadgeForKeyPath:DEMO_CHILD_PATH count:1];
   
 3、删除小红点：[KKBadgeController clearBadgeForKeyPath:DEMO_CHILD_PATH];
