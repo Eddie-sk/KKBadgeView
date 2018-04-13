@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E6B036207F5607002926DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B035207F5607002926DB /* AppDelegate.m */; };
+		B1E6B039207F5607002926DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B038207F5607002926DB /* ViewController.m */; };
+		B1E6B03C207F5607002926DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E6B03A207F5607002926DB /* Main.storyboard */; };
+		B1E6B03E207F5607002926DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E6B03D207F5607002926DB /* Assets.xcassets */; };
+		B1E6B041207F5607002926DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E6B03F207F5607002926DB /* LaunchScreen.storyboard */; };
+		B1E6B044207F5607002926DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B043207F5607002926DB /* main.m */; };
+		B1E6B04E207F5607002926DB /* KKBadgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B04D207F5607002926DB /* KKBadgeDemoTests.m */; };
+		B1E6B060207F6203002926DB /* KKBadgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B05F207F6203002926DB /* KKBadgeModel.m */; };
+		B1E6B063207F6DD7002926DB /* KKBadgeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B062207F6DD7002926DB /* KKBadgeInfo.m */; };
+		B1E6B066207F7122002926DB /* KKBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B065207F7122002926DB /* KKBadgeController.m */; };
+		B1E6B06E207F73FB002926DB /* UIView+KKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B06D207F73FB002926DB /* UIView+KKBadge.m */; };
+		B1E6B071207F7B86002926DB /* UITabBarItem+KKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B070207F7B86002926DB /* UITabBarItem+KKBadge.m */; };
+		B1E6B074207F7CD6002926DB /* UIBarButtonItem+KKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B073207F7CD6002926DB /* UIBarButtonItem+KKBadge.m */; };
+		B1E6B07720804F71002926DB /* KKBadgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B07620804F71002926DB /* KKBadgeManager.m */; };
+		B1E6B07D20805974002926DB /* NSString+KKBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B07C20805974002926DB /* NSString+KKBadge.m */; };
+		B1E6B081208080F3002926DB /* NSObject+KKBadgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E6B080208080F3002926DB /* NSObject+KKBadgeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E6B04A207F5607002926DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E6B029207F5607002926DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E6B030207F5607002926DB;
+			remoteInfo = KKBadgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1E6B031207F5607002926DB /* KKBadgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKBadgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E6B034207F5607002926DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1E6B035207F5607002926DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1E6B037207F5607002926DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1E6B038207F5607002926DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1E6B03B207F5607002926DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1E6B03D207F5607002926DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E6B040207F5607002926DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E6B042207F5607002926DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E6B043207F5607002926DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1E6B049207F5607002926DB /* KKBadgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKBadgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E6B04D207F5607002926DB /* KKBadgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBadgeDemoTests.m; sourceTree = "<group>"; };
+		B1E6B04F207F5607002926DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E6B05D207F56C8002926DB /* KKBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadge.h; sourceTree = "<group>"; };
+		B1E6B05E207F6203002926DB /* KKBadgeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeModel.h; sourceTree = "<group>"; };
+		B1E6B05F207F6203002926DB /* KKBadgeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBadgeModel.m; sourceTree = "<group>"; };
+		B1E6B061207F6DD7002926DB /* KKBadgeInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeInfo.h; sourceTree = "<group>"; };
+		B1E6B062207F6DD7002926DB /* KKBadgeInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBadgeInfo.m; sourceTree = "<group>"; };
+		B1E6B064207F7122002926DB /* KKBadgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeController.h; sourceTree = "<group>"; };
+		B1E6B065207F7122002926DB /* KKBadgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBadgeController.m; sourceTree = "<group>"; };
+		B1E6B069207F72FF002926DB /* KKBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeView.h; sourceTree = "<group>"; };
+		B1E6B06C207F73FB002926DB /* UIView+KKBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KKBadge.h"; sourceTree = "<group>"; };
+		B1E6B06D207F73FB002926DB /* UIView+KKBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KKBadge.m"; sourceTree = "<group>"; };
+		B1E6B06F207F7B86002926DB /* UITabBarItem+KKBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+KKBadge.h"; sourceTree = "<group>"; };
+		B1E6B070207F7B86002926DB /* UITabBarItem+KKBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+KKBadge.m"; sourceTree = "<group>"; };
+		B1E6B072207F7CD6002926DB /* UIBarButtonItem+KKBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+KKBadge.h"; sourceTree = "<group>"; };
+		B1E6B073207F7CD6002926DB /* UIBarButtonItem+KKBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+KKBadge.m"; sourceTree = "<group>"; };
+		B1E6B07520804F71002926DB /* KKBadgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeManager.h; sourceTree = "<group>"; };
+		B1E6B07620804F71002926DB /* KKBadgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKBadgeManager.m; sourceTree = "<group>"; };
+		B1E6B07B20805974002926DB /* NSString+KKBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+KKBadge.h"; sourceTree = "<group>"; };
+		B1E6B07C20805974002926DB /* NSString+KKBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+KKBadge.m"; sourceTree = "<group>"; };
+		B1E6B07E208080B1002926DB /* KKBadgeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKBadgeKit.h; sourceTree = "<group>"; };
+		B1E6B07F208080F3002926DB /* NSObject+KKBadgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KKBadgeController.h"; sourceTree = "<group>"; };
+		B1E6B080208080F3002926DB /* NSObject+KKBadgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KKBadgeController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E6B02E207F5607002926DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E6B046207F5607002926DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1E6B028207F5607002926DB = {
+			isa = PBXGroup;
+			children = (
+				B1E6B033207F5607002926DB /* KKBadgeDemo */,
+				B1E6B04C207F5607002926DB /* KKBadgeDemoTests */,
+				B1E6B032207F5607002926DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E6B032207F5607002926DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B031207F5607002926DB /* KKBadgeDemo.app */,
+				B1E6B049207F5607002926DB /* KKBadgeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E6B033207F5607002926DB /* KKBadgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B034207F5607002926DB /* AppDelegate.h */,
+				B1E6B035207F5607002926DB /* AppDelegate.m */,
+				B1E6B037207F5607002926DB /* ViewController.h */,
+				B1E6B038207F5607002926DB /* ViewController.m */,
+				B1E6B058207F5686002926DB /* KKBadge */,
+				B1E6B03A207F5607002926DB /* Main.storyboard */,
+				B1E6B03D207F5607002926DB /* Assets.xcassets */,
+				B1E6B03F207F5607002926DB /* LaunchScreen.storyboard */,
+				B1E6B042207F5607002926DB /* Info.plist */,
+				B1E6B043207F5607002926DB /* main.m */,
+			);
+			path = KKBadgeDemo;
+			sourceTree = "<group>";
+		};
+		B1E6B04C207F5607002926DB /* KKBadgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B04D207F5607002926DB /* KKBadgeDemoTests.m */,
+				B1E6B04F207F5607002926DB /* Info.plist */,
+			);
+			path = KKBadgeDemoTests;
+			sourceTree = "<group>";
+		};
+		B1E6B058207F5686002926DB /* KKBadge */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B05A207F56BB002926DB /* BadgeController */,
+				B1E6B059207F56BB002926DB /* BadgeModel */,
+				B1E6B05B207F56BB002926DB /* BadgeView */,
+				B1E6B05C207F56BB002926DB /* Utilities */,
+				B1E6B07E208080B1002926DB /* KKBadgeKit.h */,
+			);
+			path = KKBadge;
+			sourceTree = "<group>";
+		};
+		B1E6B059207F56BB002926DB /* BadgeModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B05D207F56C8002926DB /* KKBadge.h */,
+				B1E6B05E207F6203002926DB /* KKBadgeModel.h */,
+				B1E6B05F207F6203002926DB /* KKBadgeModel.m */,
+				B1E6B061207F6DD7002926DB /* KKBadgeInfo.h */,
+				B1E6B062207F6DD7002926DB /* KKBadgeInfo.m */,
+			);
+			path = BadgeModel;
+			sourceTree = "<group>";
+		};
+		B1E6B05A207F56BB002926DB /* BadgeController */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B064207F7122002926DB /* KKBadgeController.h */,
+				B1E6B065207F7122002926DB /* KKBadgeController.m */,
+				B1E6B07520804F71002926DB /* KKBadgeManager.h */,
+				B1E6B07620804F71002926DB /* KKBadgeManager.m */,
+				B1E6B07F208080F3002926DB /* NSObject+KKBadgeController.h */,
+				B1E6B080208080F3002926DB /* NSObject+KKBadgeController.m */,
+			);
+			path = BadgeController;
+			sourceTree = "<group>";
+		};
+		B1E6B05B207F56BB002926DB /* BadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B069207F72FF002926DB /* KKBadgeView.h */,
+				B1E6B06C207F73FB002926DB /* UIView+KKBadge.h */,
+				B1E6B06D207F73FB002926DB /* UIView+KKBadge.m */,
+				B1E6B06F207F7B86002926DB /* UITabBarItem+KKBadge.h */,
+				B1E6B070207F7B86002926DB /* UITabBarItem+KKBadge.m */,
+				B1E6B072207F7CD6002926DB /* UIBarButtonItem+KKBadge.h */,
+				B1E6B073207F7CD6002926DB /* UIBarButtonItem+KKBadge.m */,
+			);
+			path = BadgeView;
+			sourceTree = "<group>";
+		};
+		B1E6B05C207F56BB002926DB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B1E6B07B20805974002926DB /* NSString+KKBadge.h */,
+				B1E6B07C20805974002926DB /* NSString+KKBadge.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E6B030207F5607002926DB /* KKBadgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E6B052207F5607002926DB /* Build configuration list for PBXNativeTarget "KKBadgeDemo" */;
+			buildPhases = (
+				B1E6B02D207F5607002926DB /* Sources */,
+				B1E6B02E207F5607002926DB /* Frameworks */,
+				B1E6B02F207F5607002926DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKBadgeDemo;
+			productName = KKBadgeDemo;
+			productReference = B1E6B031207F5607002926DB /* KKBadgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E6B048207F5607002926DB /* KKBadgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E6B055207F5607002926DB /* Build configuration list for PBXNativeTarget "KKBadgeDemoTests" */;
+			buildPhases = (
+				B1E6B045207F5607002926DB /* Sources */,
+				B1E6B046207F5607002926DB /* Frameworks */,
+				B1E6B047207F5607002926DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E6B04B207F5607002926DB /* PBXTargetDependency */,
+			);
+			name = KKBadgeDemoTests;
+			productName = KKBadgeDemoTests;
+			productReference = B1E6B049207F5607002926DB /* KKBadgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E6B029207F5607002926DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CCWork;
+				TargetAttributes = {
+					B1E6B030207F5607002926DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B1E6B048207F5607002926DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1E6B030207F5607002926DB;
+					};
+				};
+			};
+			buildConfigurationList = B1E6B02C207F5607002926DB /* Build configuration list for PBXProject "KKBadgeDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E6B028207F5607002926DB;
+			productRefGroup = B1E6B032207F5607002926DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E6B030207F5607002926DB /* KKBadgeDemo */,
+				B1E6B048207F5607002926DB /* KKBadgeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E6B02F207F5607002926DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E6B041207F5607002926DB /* LaunchScreen.storyboard in Resources */,
+				B1E6B03E207F5607002926DB /* Assets.xcassets in Resources */,
+				B1E6B03C207F5607002926DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E6B047207F5607002926DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E6B02D207F5607002926DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E6B063207F6DD7002926DB /* KKBadgeInfo.m in Sources */,
+				B1E6B066207F7122002926DB /* KKBadgeController.m in Sources */,
+				B1E6B039207F5607002926DB /* ViewController.m in Sources */,
+				B1E6B07D20805974002926DB /* NSString+KKBadge.m in Sources */,
+				B1E6B074207F7CD6002926DB /* UIBarButtonItem+KKBadge.m in Sources */,
+				B1E6B044207F5607002926DB /* main.m in Sources */,
+				B1E6B036207F5607002926DB /* AppDelegate.m in Sources */,
+				B1E6B081208080F3002926DB /* NSObject+KKBadgeController.m in Sources */,
+				B1E6B060207F6203002926DB /* KKBadgeModel.m in Sources */,
+				B1E6B07720804F71002926DB /* KKBadgeManager.m in Sources */,
+				B1E6B071207F7B86002926DB /* UITabBarItem+KKBadge.m in Sources */,
+				B1E6B06E207F73FB002926DB /* UIView+KKBadge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E6B045207F5607002926DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E6B04E207F5607002926DB /* KKBadgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E6B04B207F5607002926DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E6B030207F5607002926DB /* KKBadgeDemo */;
+			targetProxy = B1E6B04A207F5607002926DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1E6B03A207F5607002926DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E6B03B207F5607002926DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E6B03F207F5607002926DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E6B040207F5607002926DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E6B050207F5607002926DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1E6B051207F5607002926DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E6B053207F5607002926DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47E93QE343;
+				INFOPLIST_FILE = KKBadgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.test.KKBadgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E6B054207F5607002926DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47E93QE343;
+				INFOPLIST_FILE = KKBadgeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.test.KKBadgeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1E6B056207F5607002926DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47E93QE343;
+				INFOPLIST_FILE = KKBadgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.test.KKBadgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBadgeDemo.app/KKBadgeDemo";
+			};
+			name = Debug;
+		};
+		B1E6B057207F5607002926DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47E93QE343;
+				INFOPLIST_FILE = KKBadgeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kook.test.KKBadgeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKBadgeDemo.app/KKBadgeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E6B02C207F5607002926DB /* Build configuration list for PBXProject "KKBadgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E6B050207F5607002926DB /* Debug */,
+				B1E6B051207F5607002926DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E6B052207F5607002926DB /* Build configuration list for PBXNativeTarget "KKBadgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E6B053207F5607002926DB /* Debug */,
+				B1E6B054207F5607002926DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E6B055207F5607002926DB /* Build configuration list for PBXNativeTarget "KKBadgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E6B056207F5607002926DB /* Debug */,
+				B1E6B057207F5607002926DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E6B029207F5607002926DB /* Project object */;
+}
