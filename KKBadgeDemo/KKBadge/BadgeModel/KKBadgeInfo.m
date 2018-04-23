@@ -36,7 +36,7 @@
 #pragma mark - Properties
 
 - (NSUInteger)hash {
-    return [_keyPath hash] ^ [_controller hash] ^ [_badgeView hash];
+    return [_keyPath hash] ^ [_controller hash];
 }
 
 - (BOOL)isEqual:(id)object {
@@ -58,9 +58,7 @@
     
     BOOL isEqualController = (_controller == badgeObj.controller);
     
-    BOOL isEqualView = (_badgeView ==badgeObj.badgeView);
-    
-    return isEqualPath && isEqualController && isEqualView;
+    return isEqualPath && isEqualController;
     
 }
 
